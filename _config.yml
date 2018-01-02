@@ -1,0 +1,27 @@
+# Site settings
+name: 重写那封情书的结局
+email: 457407560@qq.com
+author: 大鱼
+url: http://xiaokedada.com
+resume_site: http://xiaokedada.com/me/
+github: https://github.com/fungchu/
+baseurl: ""  #根目录
+description: 我孑然一身，让理想有了归属
+motto: 幻想过很多次和你的未来，松花酿酒，春水煎茶
+#motto: 初见的时候绝对不知道后来会这么喜欢你。
+banner: 你是年少的欢喜，这句话倒过来，也是你
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+excerpt_separator:  '<!-- more -->' #文章摘要
+paginate: 8
+paginate_path: "page:num"
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+github_username: fungchu
+highlighter: rouge
+markdown: kramdown
+FB:
+  comments :
+    provider : disqus
+    disqus :
+        short_name : xiaokedada
