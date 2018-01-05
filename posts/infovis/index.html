@@ -1,0 +1,49 @@
+---
+layout: default
+title: 博文分类
+header: Posts By Category
+---
+
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        <div id="navigation">
+        	<h1>文章标题</h1>
+      		<ul class="nav sidenav">
+				{% for post in site.posts %}
+					{% if post.categories contains 'infovis' %}
+						{% for title in post.title %} 
+							<li><a href="{{category}}">
+						{{post.title}}
+							</a></li>
+						{% endfor %}
+					{% endif %}
+				{% endfor %}
+          	</ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <div class="home">
+			<h2 class="title-border" id="{{category[0]}}">infovis</h2><hr>
+			<ul>
+				{% for post in site.posts %}
+					{% if post.categories contains 'infovis' %}
+						 
+					{% for title in post.title %} 
+							<li><a href="{{ post.url | prepend: site.baseurl }}">
+						{{post.title}}
+							</a></li>
+						{% endfor %}
+					{% endif %}
+				{% endfor %}
+			</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
