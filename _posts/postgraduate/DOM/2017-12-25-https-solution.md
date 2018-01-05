@@ -2,7 +2,7 @@
 layout: post
 title: "网页界面设计的五大原则"
 date: 2017-12-25 23:00:00 +0800 
-categories: 研究生涯
+categories: rwd
 tag: https
 ---
 * content
