@@ -12,7 +12,7 @@ header: Posts By Category
         	<h1>文章标题</h1>
       		<ul class="nav sidenav">
 				{% for post in site.posts %}
-					{% if post.categories contains '数据' %}
+					{% if post.categories contains '数据可视化' %}
 						{% for title in post.title %} 
 							<li><a href="{{category}}">
 						{{post.title}}
@@ -31,7 +31,7 @@ header: Posts By Category
 			<h2 class="title-border" id="{{category[0]}}">infovis</h2><hr>
 			<ul>
 				{% for post in site.posts %}
-					{% if post.categories contains 'infovis' %}
+					{% if post.categories contains '数据可视化' %}
 						 
 					{% for title in post.title %} 
 							<li><a href="{{ post.url | prepend: site.baseurl }}">
