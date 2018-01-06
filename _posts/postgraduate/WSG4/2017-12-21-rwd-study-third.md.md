@@ -3,7 +3,7 @@ layout: post
 title: "网页界面设计的五大原则"
 date: 2017-12-21 11:00:00 +0800 
 categories: rwd
-tag: Liquid
+tag: rwd
 ---
 * content
 {:toc}
