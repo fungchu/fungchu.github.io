@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "网页设计中的常用英文字体"
-date: 2017-12-19 11:00:00 +0800 
+date: 2018-01-04 11:00:00 +0800 
 categories: rwd
-tag: WSG4
+tag: rwd
 ---
 * content
 {:toc}
