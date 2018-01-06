@@ -2,7 +2,7 @@
 layout: post
 title:  "欲用GitHub空間，可先自裝GitHub Desktop"
 date:   2017-12-01 22:07:50 +0800
-categories: 研究生涯
+categories: jekyll
 tag: Jekyll
 ---
 * content
