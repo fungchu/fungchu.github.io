@@ -8,7 +8,6 @@ tag: WSG4
 * content
 {:toc}
 
-# 网页设计中的常用英文字体
 
 * Helvetica: 被评为设计师最爱的字体，Realist风格，简洁现代的线条，非常受到追捧。在Mac下面被认为是最佳的网页字体，在Windows下由于Hinting的原因显示很糟糕。
 * Arial: Helvetica的「克隆」，和Helvetica非常像，细节上比如R和G有小小差别。如果字号太小，文字太多，看起来会有些累眼。Win和Mac显示都正常Lucida Family: Lucida Grande是Mac OS UI的标准字体，属于humanist风格，稍微活泼一点。Mac下的显示要比Win下好。
